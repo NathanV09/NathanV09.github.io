@@ -1609,14 +1609,19 @@
 		margin: 0 0 1em 0;
 	}
 
-		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-			color: inherit;
-			text-decoration: none;
-		}
+	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+		color: inherit;
+		text-decoration: none;
+	}
 
 	h1 {
 		font-size: 2em;
 		line-height: 1.5em;
+	}
+
+	#WIP {
+		background-color: #ffff00;
+		color: #000000;
 	}
 
 	h2 {
@@ -2078,9 +2083,9 @@
 				width: 100%;
 			}
 
-		.image.avatar {
+		/*.image.avatar {
 			border-radius: 100%;
-		}
+		}*/
 
 			.image.avatar:before {
 				display: none;
